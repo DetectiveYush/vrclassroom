@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Build Script",
+            "type": "shell",
+            "command": "${workspaceFolder}/testingscripts/build.bat",
+            "options": {
+                "cwd": "${workspaceFolder}/testingscripts"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Task to run the custom build.bat file."
+        }
+    ]
+}
